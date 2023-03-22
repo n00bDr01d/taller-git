@@ -1,0 +1,58 @@
+site_name: Taller de Git
+site_author: "Sergio Gómez <sergio@uco.es>"
+site_description: "Curso básico de git"
+site_url: "https://github.com/aulasoftwarelibre/taller-de-git.git"
+
+repo_name: "aulasoftwarelibre/taller-de-git"
+repo_url: "https://github.com/aulasoftwarelibre/taller-de-git.git"
+
+copyright: Copyleft - CC BY-NC 4.0 - Aula de Software Libre
+
+theme:
+  favicon: "images/logoasl.png"
+  features:
+    - navigation.instant
+  icon:
+    logo: material/git
+  name: "material"
+  language: "es"
+  palette:
+    - scheme: slate
+      accent: indigo
+
+plugins:
+  - awesome-pages
+  - git-revision-date-localized:
+      type: date
+  - search
+
+extra_css:
+  - stylesheets/extra.css
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: "https://github.com/aulasoftwarelibre"
+    - icon: fontawesome/brands/twitter
+      link: "https://twitter.com/aulasl"
+    - icon: fontawesome/brands/facebook
+      link: "https://facebook.com/aulasl"
+    - icon: fontawesome/brands/instagram
+      link: "https://instagram.com/aulasoftwarelibre"
+    - icon: fontawesome/brands/youtube
+      link: "https://www.youtube.com/channel/UCfWiR5j-cbKcGTi9faK8P6w"
+
+markdown_extensions:
+  - admonition: ~
+  - attr_list: ~
+  - def_list: ~
+  - footnotes: ~
+  - toc:
+      permalink: true
+  - pymdownx.keys: ~
+  - pymdownx.highlight: ~
+  - pymdownx.inlinehilite: ~
+  - pymdownx.superfences: ~
+
+google_analytics:
+  - "UA-51754922-1"
+  - "auto"
