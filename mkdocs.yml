@@ -1,10 +1,10 @@
 site_name: Taller de Git
-site_author: "Sergio Gómez <sergio@uco.es>"
+site_author: "Oscar Abuawad <oscarabuawad@hotmail.com>"
 site_description: "Curso básico de git"
-site_url: "https://github.com/aulasoftwarelibre/taller-de-git.git"
+site_url: "https://github.com/n00bDr01d/taller-git.git"
 
-repo_name: "aulasoftwarelibre/taller-de-git"
-repo_url: "https://github.com/aulasoftwarelibre/taller-de-git.git"
+repo_name: "n00bDr01d/taller-git"
+repo_url: "https://github.com/n00bDr01d/taller-git.git"
 
 copyright: Copyleft - CC BY-NC 4.0 - Aula de Software Libre
 
@@ -31,15 +31,15 @@ extra_css:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: "https://github.com/aulasoftwarelibre"
+      link: ""
     - icon: fontawesome/brands/twitter
-      link: "https://twitter.com/aulasl"
+      link: ""
     - icon: fontawesome/brands/facebook
-      link: "https://facebook.com/aulasl"
+      link: ""
     - icon: fontawesome/brands/instagram
-      link: "https://instagram.com/aulasoftwarelibre"
+      link: ""
     - icon: fontawesome/brands/youtube
-      link: "https://www.youtube.com/channel/UCfWiR5j-cbKcGTi9faK8P6w"
+      link: ""
 
 markdown_extensions:
   - admonition: ~
@@ -54,5 +54,5 @@ markdown_extensions:
   - pymdownx.superfences: ~
 
 google_analytics:
-  - "UA-51754922-1"
-  - "auto"
+  - ""
+  - ""
